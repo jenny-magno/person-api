@@ -8,13 +8,11 @@ Make sure you have Java and Maven installed locally.
     git clone https://github.com/jenny-magno/person-api.git
     cd person-api
 
-Update the configuration file
-
 ## Run the app
 
     mvn spring-boot:run
 
-The application should now be running on [localhost:8080](localhost:8080). Currently, the application stores data in-memory. Future work on this application includes integration with a MySQL database.
+The application should now be running on [localhost:8080](http://localhost:8080). Currently, the application stores data in-memory. Future work on this application includes integration with a MySQL database.
 
 ## Run the tests
 Use the following command to run a series of basic tests on the Person API.
